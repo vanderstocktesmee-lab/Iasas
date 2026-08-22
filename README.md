@@ -6,3 +6,4 @@ Iasas is an open source site made for hackclub.
 U can test iasas on iasas.netlify.app
 
 Rn we only have 2 things to learn on Iasa but it will get much better, stay tuned!
+So yh if u have an idea or u wanna work together then uh dm me maybe on discord my user is appel.moes
