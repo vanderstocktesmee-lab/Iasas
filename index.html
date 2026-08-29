@@ -4,119 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iasas</title>
-    <p class="welcome">
-     Welcome to Iasas!
-  </p>
+    <style>
+        body {
+            background-color: #f7f5f0; /* Heel lichte, strakke achtergrond */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
+        .welcome {
+            text-align: center;
+            font-weight: 500;
+            color: darkkhaki;
+            font-size: 32px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .rubiks-section, .penspin-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .rubiks, .penspin {
+            color: wheat;
+            background-color: burlywood;
+            width: 500px;
+            border-radius: 20px;
+            cursor: pointer;
+            border: none; /* Haalt lelijke standaard randjes weg */
+            padding: 25px; /* Iets meer ruimte binnenin de knop */
+            text-align: left; /* Zorgt dat de tekst netjes links start */
+        }
+
+        .psfoto {
+            width: 205px;
+            border-radius: 10px; /* Iets afgerond voor een cleaner look */
+        }
+
+        .rubiksfoto {
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        .rubiksfotocool2 {
+            width: 350px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
-
-
 <body>
 
+    <p class="welcome">Welcome to Iasas!</p>
 
-    
+    <div class="rubiks-section">
+        <button class="rubiks" onclick="window.location.href='rubikscubesolving.html'">
+            <h1>Rubiks cube solving</h1>
+            <p>U wanna learn how to solve a rubiks cube to impress yourself and everyone you know?</p>
+            <p>This tutorial gives u everything u need to know,</p>
+            <p>from solving the first side to solving the cube in under 30sec!</p>
+        </button>
+        <img class="rubiksfoto" src="rubiks-Photoroom.png">
+        <img class="rubiksfotocool2" src="rubiksimage2cool-Photoroom.png">
+    </div>
 
-    
-
-    
-  </div>
-     
-
-   
-  
-<div class="rubiks-section">
-
-    <button class="rubiks" onclick="window.location.href='rubikscubesolving.html'">
-        <h1>Rubiks cube solving</h1>
-
-        <p>U wanna learn how to solve a rubiks cube to impress yourself and everyone you know?</p>
-        <p>This tutorial gives u everything u need to know,</p>
-        <p>from solving the first side to solving the cube in under 30sec!</p>
-    </button>
-
-    <img class="rubiksfoto" src="rubiks-Photoroom.png">
-
-    <img class="rubiksfotocool2" src="rubiksimage2cool-Photoroom.png">
-
-</div>
-<div>
-<button class="penspin" onclick="window.location.href='penspinning.html'">
-    <h1>Pen spinning</h1>
-    <p>U wanna learn how to pen spin?</p>
-    <p>Pen spinning is rly fun and impressive and a fun thing to do in class.</p>
-    <p>It's rly basic cuz all u need is a pen and some good hands</p>
-</button>
-<img class="psfoto" src="penspinning.jpg" >
-</div>
-
-
+    <div class="penspin-section">
+        <button class="penspin" onclick="window.location.href='penspinning.html'">
+            <h1>Pen spinning</h1>
+            <p>U wanna learn how to pen spin?</p>
+            <p>Pen spinning is rly fun and impressive and a fun thing to do in class.</p>
+            <p>It's rly basic cuz all u need is a pen and some good hands</p>
+        </button>
+        <img class="psfoto" src="penspinning.jpg" >
+    </div>
 
 </body>
-
-
-
-  
-
-
-
-
- 
-
-  
-
-
 </html>
-
-
-
-<style>
-.psfoto {
-    width: 205px;
-}
-
-.rubiks-section {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    margin-left: 5px;
-}
-
-.penspin-section {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 5px;
-}
-
-.rubiksfotocool2 {
-    width: 350px;
-}
-
-.rubiksfoto {
-    width: 250px;
-}
-
-.welcome {
-    text-align: center;
-    font-weight: 500;
-    color: darkkhaki;
-}
-
-.rubiks {
-    margin-top: 15px;
-    color: wheat;
-    background-color: burlywood;
-    width: 500px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.penspin {
-    color: wheat;
-    background-color: burlywood;
-    width: 500px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-</style>
