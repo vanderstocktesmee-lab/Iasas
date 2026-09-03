@@ -8,4 +8,6 @@ U can test iasas on iasas.netlify.app
 Rn we only have 2 things to learn on Iasa but it will get much better, stay tuned!
 So yh if u have an idea or u wanna work together then uh dm me maybe on discord my user is appel.moes
 
+For Hackclub revieuwers:
+don't mind the whistling trick it's still in progress bc i started working on that the third of september.
 
