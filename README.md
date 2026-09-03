@@ -9,4 +9,3 @@ Rn we only have 2 things to learn on Iasa but it will get much better, stay tune
 So yh if u have an idea or u wanna work together then uh dm me maybe on discord my user is appel.moes
 
 
-Don't mind the coinflipping button i'm still working on that
